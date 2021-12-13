@@ -1,0 +1,519 @@
+.icon1 {
+    padding-left: 20px;
+}    
+
+
+
+.btn {
+    background-color: $color-sa;
+    cursor: pointer;
+    color: $color-w;
+
+    &:hover{
+        background-color: $color-z;
+        color: $color-w;
+    }
+}
+
+
+.input {
+    height: 40px;
+    width: 120px;
+    margin: 0 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    border: 1px solid transparent;
+
+    @media (max-width:1200px) {
+        height: 40px;
+        width: 100px;             
+    }
+
+    @media (max-width: 992px) {
+        height: 35px;
+        width: 80px;             
+    }
+
+    @media (max-width: 850px) {
+        height: 30px;
+        width: 70px;             
+    }
+
+    @media (max-width: 768px) {
+        height: 25px;
+        width: 60px;             
+    }
+
+    @media (max-width:576px) {
+        height:30px;
+        width: 40px;             
+    }
+
+    @media (max-width:425px) {
+        height: 30px;
+        width: 40px;             
+    }
+}
+
+
+
+.dayere {
+    @include flexlayout;
+    flex-direction: column;
+    position: relative;
+    top: 120px;
+
+    @media (max-width:1600px) {
+        position: relative;
+        top: 100px;     
+    }
+
+    @media (max-width:1400px) {
+        position: relative;
+        top: 10vw;     
+    }
+
+    @media (max-width:1200px) {
+        position: relative;
+        top: 8vw;     
+    }
+
+    @media (max-width:992px) {
+        position: relative;
+        top: 8vw;     
+    }
+
+    @media (max-width:768px) {
+        position: relative;
+        top: 8vw;     
+    }
+
+    @media (max-width:576px) {
+        position: relative;
+        top: 15vw;     
+    }
+
+    @media (max-width:576px) {
+        position: relative;
+        top: 10vw;     
+    }
+}
+
+
+
+.img {
+    width: 110px;
+    height: 110px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 5px solid $color-w;
+    border-radius: 100px;
+    position: relative;
+    
+    
+    @media (max-width:1200px) {
+        width: 90px;
+        height: 90px;     
+    }
+
+    @media (max-width:992px) {
+        width: 80px;
+        height: 80px;     
+    }
+
+    @media (max-width:768px) {
+        width: 60px;
+        height: 60px;    
+        border: 3px solid $color-w; 
+    }
+
+    @media (max-width:576px) {
+        margin-left: 70px;
+        margin-right: 70px; 
+        border: 2px solid $color-w;    
+    }
+
+    @media (max-width:480px) {
+        margin-left: 80px;
+        margin-right: 80px;     
+        width: 50px;
+        height: 50px;
+        border: 2px solid $color-w;
+    }
+
+    @media (max-width:420px) {
+        margin-left: 50px;
+        margin-right: 50px;     
+        width: 50px;
+        height: 50px;
+        border: 2px solid $color-w;
+    }
+}
+
+.img-k {
+    @include flexlayout;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+    border: 1px solid $color-w;
+    border-radius: 50%;
+    background-color: $color-sa;
+    position: relative;
+    left: 50px;
+    top: -50px;
+    font-size: 15px;
+
+    @media (max-width:1200px) {
+        width: 45px;
+        height: 45px;     
+    }
+
+    @media (max-width:992px) {
+        width: 40px;
+        height: 40px;  
+        top: -50px;   
+    }
+
+    @media (max-width:768px) {
+        width: 30px;
+        height: 30px; 
+        font-size: 10px;  
+        left: 45px;
+        top: -40px;  
+    }
+
+    @media (max-width:576px) {
+        left: 60px;
+        top: -40px;
+        font-size: 10px;    
+    }
+
+    @media (max-width:480px) {
+        left: 70px;
+        top: -40px;
+        font-size: 10px;
+        left: 70px;
+        top: -40px;    
+    }
+
+    @media (max-width:425px) {
+        left: 70px;
+        top: -40px;  
+        font-size: 10px;
+    }
+}
+
+.paragragh-ax {
+    @include flexlayout;
+    flex-direction: column;
+    font-size: 20px;
+    position: relative;
+    top: -40px;  
+
+    @media (max-width:992px) {
+        font-size: 15px;     
+    }
+
+    @media (max-width:768px) {
+        top: -30px;     
+    }
+
+    @media (max-width:425px) {
+        font-size: 12px; 
+        top: -30px;    
+    }
+}
+
+
+.daryaft-link {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.main-input {
+    width: 250px;
+    height: 38px;
+    text-align: center;
+    margin-right: 25px;
+    border: 1px solid;
+    border-radius: 5px;
+
+    @media (max-width:850px) {
+        width: 200px;
+        height: 30px;  
+    }
+
+    @media (max-width:768px) {
+        width: 200px;
+        height: 25px;  
+    }
+
+    @media (max-width:576px) {
+        width: 200px;
+        height: 30px;  
+    }
+
+    @media (max-width:480px) {
+        width: 200px;
+        height: 30px;  
+    }
+}
+
+.imgha {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-right:25px;
+
+    @media (max-width:1200px) {
+       flex-wrap: wrap;             
+    }
+}
+
+
+
+.ghaza {
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    margin: 15px 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    
+    &:hover {
+       transform: translateY(-5px);
+       box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.9);
+    }
+}
+
+
+.main-midel-2-img {
+    object-fit: cover;
+    z-index: 100;
+}
+
+
+.main-midel-2-img:hover {
+    transition: all 0.5s;
+}
+
+
+.changal {
+    height: 40vh;
+    width: 5vw;
+}
+
+.boshghab {
+    width: 20vvw;
+    height: 40vh;
+}
+
+.ghashogh {
+    height: 40vh;
+    width: 5vw;
+    margin-right: 30px;
+}
+
+
+.logoha {
+    @media (max-width:576px) {
+        position: relative;
+        right:30px;
+    }
+}
+
+
+.shahrha {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px;
+
+
+    @media (max-width:1400px) {
+        padding: 20px;
+    }
+
+    @media (max-width:992px) {
+        padding: 10px;
+    }
+}
+
+
+.shahr {
+    margin: 10px;
+    border: 1px solid $color-t;
+    border-radius: 50px;
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    background-color: $color-w;
+    font-size: 12px;
+    color: $color-g;
+    cursor: pointer;
+}
+
+
+
+.hr {
+    margin-top: 63px;
+
+    @media (max-width:1200px) {
+        display: none;
+    }
+}
+
+
+
+.ozviyat {
+    font-size: 15px;
+    width: 30%;
+    text-align: center;
+    margin-right: 50px;
+
+    @media (max-width:992px) {
+        margin-right:300px;
+        margin-left: 100px;
+    }
+
+    @media (max-width:768px) {
+        margin-right:200px;
+        margin-left: 100px;
+    }
+
+    @media (max-width:680px) {
+        margin-right:100px;
+        margin-left: 100px;
+    }
+
+    @media (max-width:576px) {
+        position: relative;
+        left:30px;
+    }
+    
+
+    h3 {
+     margin-bottom: 30px;
+    } 
+
+    p {
+     margin-bottom: 30px;
+     color: $color-g;
+     font-size: 13px
+    }
+}
+
+
+
+.ozviyat-link {
+    @include flexlayout;
+}
+
+
+
+.hr-ozviyat {
+    margin-top: 40px;
+}
+
+
+
+.social-media {
+    margin-top: 30px;    
+}
+
+
+
+.s-m {
+    border: 1px solid $color-t;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;   
+    padding: 5px; 
+    transition: all 0.1s;
+    
+    &:hover {
+        transform: translateY(-10px);
+        color: $color-sa;
+        background-color: $color-t;
+    }
+}
+
+
+
+.mojavez {
+
+    h3 {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    @media (max-width:992px) {
+        position: relative;
+        right: 90px;
+    }
+
+    @media (max-width:768px) {
+        position: relative;
+        right: 40px;
+    }
+
+    @media (max-width:576px) {
+        display: none;
+    }
+}
+
+
+.mojavez-img {
+    margin-bottom: 30px;
+}
+
+
+
+.ertebat {
+    direction: rtl;
+
+    ul li {
+        list-style-type: none;
+        color: $color-t;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    @media (max-width:576px) {
+        display: none;
+    }
+}
+
+
+
+.etelat {
+    direction: rtl;
+    h3 {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    ul li {
+        list-style-type: none;
+        color: $color-t;
+        cursor: pointer;
+    }
+
+    @media (max-width:576px) {
+        display: none;
+    }
+}
+
+
+
+.footer-p {
+    @include flexlayout;
+    cursor: pointer;
+}
+
+
+
+

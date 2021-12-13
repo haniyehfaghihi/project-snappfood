@@ -1,0 +1,49 @@
+$color-sa: #AA004E;
+$color-w: #ffffff;
+$color-b: #000000;
+$color-z: #36041c;
+$color-g: rgb(95, 92, 92);
+$color-t: rgb(175, 172, 172);
+
+
+$font-sahel: sahel,tahoma;
+
+@mixin flexlayout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@mixin centering($topvalu) {
+    position: absolute;
+    top:  $topvalu;
+    left: 50%;
+}
+
+@font-face {
+    font-family: sahel;
+    src: url("../fonts/sahel/Sahel.ttf") format("ttf"),url("../fonts/sahel/Sahel.eot") format("eot");
+    font-weight: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 100%;
+    font-family: $font-sahel;
+}
+
+
+
+
+
+
+
+
